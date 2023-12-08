@@ -1,47 +1,67 @@
-# Astro Starter Kit: Minimal
+<p align="center">
+    <img src="./public/Logocorgi.png"" alt="Logo" width="128" height="128">
+</p>
+<h1 align="center"> Corgi-StarLight✨ </h1>
 
-```sh
-npm create astro@latest -- --template minimal
+
+<p align="center">
+    <img src="https://img.shields.io/badge/astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white"
+    alt="Astro Badge"/>
+    <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=blue"
+    alt="React Badge"/>
+    <img src="https://img.shields.io/badge/tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"
+    alt="React Badge"/>
+    <img src="https://img.shields.io/badge/mdx-F5C518?style=for-the-badge&logo=mdx&logoColor=black"
+    alt="React Badge"/>
+</p>
+<p align="center">
+    <a href="https://dorian-pike-610.notion.site/Corgi-StarLight-147dd465575b44af97aa51f8b18204c7?pvs=4">
+        <img
+        src="https://img.shields.io/badge/documentación%20en%20notion-000000?style=for-the-badge&logo=notion&logoColor=white"
+        alt="Notion Docs Badge"/>
+    </a>
+</p>
+
+Corgi-StarLight viene a ser una alternativa customizable del tema de AstroJS, el mismo se enfoca en la creación rápida y sencilla de documentación, esta idea es muy aplicable a la creación de Blogs. Entonces, tenemos una potente herramienta para crear páginas con Markdown. Además, integrar funcionalidades que simplifiquen la escritura de contenido estático como ObsidianMD y otros.
+
+> El proyecto todavía está en desarrollo, por lo que no se recomienda su uso en producción.
+
+### 👀 Tabla de contenidos
+
+- [💫 Características](#-características)
+- [🚀 Comenzar](#-comenzar)
+- [📦 Estructura del proyecto](#-estructura-del-proyecto)
+
+## 💫 Características
+
+Algunas características importantes y que se están desarrollando son:
+
+- [ ] Sintaxis básica de Markdown.
+- [ ] Capacidad de utilizar tags de HTML.
+- [ ] Capacidad de utilizar MDX y componentes.
+- [ ] Estilización de componentes con TailwindCSS.
+- [ ] Componentes de utilidad para la creación de páginas.
+
+## 🚀 Comenzar
+
+Inicialmente se debe clonar el repositorio
+
+```bash
+git clone https://github.com/Repolloezzz/Corgi-StarLight.git
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+Tras ello, se debe instalar las dependencias
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```bash
+cd Corgi-StarLight
+npm install
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Para iniciar el proyecto en modo desarrollo
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+```bash
+npm run dev
+```
 
-Any static assets, like images, can be placed in the `public/` directory.
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 📦 Estructura del proyecto
